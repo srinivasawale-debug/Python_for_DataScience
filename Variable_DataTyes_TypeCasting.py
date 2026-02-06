@@ -80,18 +80,32 @@
 
 
 
-      #typecasting
+# What is Typecasting?
+
+# Typecasting means converting one data type into another.
+
+# In Python, it’s done using built-in functions like:
+# int(), float(), str(), bool()
       
-      
-      
-# Typecasting is the process of converting a variable from one data type to another.
+Types of Typecasting in Python
 
 
-# types of typecasting in python
-# implicit typecasting
-# explicit typecasting
-# implicit typecasting is done automatically by python interpreter
-# explicit typecasting is done manually by the programmer using built-in functions like int(), float(), str(), bool(), etc.
+1) Implicit Typecasting
+
+Python automatically converts one data type into another.
+
+Example
+ a = 10      # int
+b = 2.5     # float
+
+c = a + b    # int → float
+print(c)            # 12.5
+print(type(c))      # <class 'float'>
+
+2) Explicit Typecasting
+
+The programmer manually converts data types.
+
 
 
 
